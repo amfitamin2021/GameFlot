@@ -3,6 +3,7 @@ package org.example;
 import java.util.Scanner;
 
 public class Main {
+    private static final int FILED_LENGTH = 10;
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -15,6 +16,12 @@ public class Main {
         System.out.println("Hello, " + player2Name + "!");
 
 
+        char[][] playerField1 = new char[FILED_LENGTH][FILED_LENGTH];
+        char[][] playerField2 = new char[FILED_LENGTH][FILED_LENGTH];
 
+        char[][] playerBattleField1 = new char[FILED_LENGTH][FILED_LENGTH];
+        char[][] playerBattleField2 = new char[FILED_LENGTH][FILED_LENGTH];
+
+        
     }
 }
